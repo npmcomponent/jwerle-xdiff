@@ -1,0 +1,16 @@
+{
+  "name": "xdiff",
+  "repo": "jwerle/xdiff",
+  "description": "diff complex javascript objects",
+  "version": "0.2.11",
+  "keywords": [],
+  "dependencies": {
+    "jwerle/adiff": "*",
+    "component/assert": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
