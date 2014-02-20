@@ -31,7 +31,7 @@ function equal (a, b) {
   return a === b
 }
 
-var adiff = require('adiff')({ equal: equal })
+var adiff = require('jwerle-adiff')({ equal: equal })
 
 function getPath (obj, path) {
   if(!Array.isArray(path))

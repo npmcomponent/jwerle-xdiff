@@ -1,18 +1,11 @@
 {
-  "author": "Dominic Tarr <dominic.tarr@gmail.com> (dominictarr.com)",
-  "name": "xdiff",
-  "description": "calc diffs of complex javascript objects.",
+  "name": "jwerle-xdiff",
+  "description": "diff complex javascript objects",
   "version": "0.2.11",
-  "homepage": "http://github.com/dominictarr/xdiff",
-  "repository": {
-    "url": "git://github.com/dominictarr/xdiff.git"
-  },
-  "engines": {
-    "node": "*"
-  },
+  "keywords": [],
   "dependencies": {
-    "adiff": "~0.2.4"
+    "jwerle-adiff": "git://github.com/npmcomponent/jwerle-adiff.git",
+    "component-assert": "git://github.com/npmcomponent/component-assert.git"
   },
-  "devDependencies": {},
-  "optionalDependencies": {}
+  "license": "MIT"
 }
